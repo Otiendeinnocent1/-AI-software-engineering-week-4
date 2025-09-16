@@ -1,0 +1,17 @@
+You trained both Logistic Regression and Random Forest on the Heart Disease Dataset.
+
+Logistic Regression Accuracy: 84%
+
+Random Forest Accuracy: 88%
+
+F1-Score (LR): 0.84
+
+Key Insights
+
+Random Forest performed better overall due to its ability to handle nonlinear patterns.
+
+Feature importance analysis showed age, cholesterol, and thalassemia type were key predictors.
+
+The model was exported (heart_rf_model.pkl) and successfully used to predict outcomes for new user data.
+
+Example Prediction: For a test CSV of 5 users, the model predicted heart disease for only one case (ID 2).
