@@ -1,0 +1,13 @@
+AI Tool Proposal: AutoDoc AI
+
+Purpose: Automatically generate documentation (API docs, UML diagrams, and README files) from source code.
+
+Workflow:
+
+Parse codebase → Extract functions & classes.
+
+Summarize with NLP → Convert into human-readable explanations.
+
+Export → Markdown/HTML with examples.
+
+Impact: Reduces outdated documentation, speeds onboarding, and ensures consistent technical documentation.
