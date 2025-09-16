@@ -1,0 +1,17 @@
+AI-driven code generation tools such as GitHub Copilot reduce development time by:
+
+Automating boilerplate code (loops, API calls, test stubs).
+
+Improving productivity through context-aware suggestions.
+
+Reducing cognitive load, letting developers focus on problem-solving.
+
+Limitations:
+
+Generated code may contain bugs, inefficiencies, or security risks.
+
+Relies heavily on training data, which may introduce bias.
+
+Developers risk over-reliance, losing debugging skills.
+
+Legal issues around copyrighted suggestions.
