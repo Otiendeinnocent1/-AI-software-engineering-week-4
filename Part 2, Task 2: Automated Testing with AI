@@ -1,0 +1,18 @@
+Selenium Script (Sample)
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+driver = webdriver.Chrome()
+driver.get("http://example.com/login")
+
+driver.find_element(By.ID, "username").send_keys("valid_user")
+driver.find_element(By.ID, "password").send_keys("valid_pass")
+driver.find_element(By.ID, "login-button").click()
+assert "Dashboard" in driver. title
+driver.quit()
+
+Summary (150 words)
+AI improves test coverage by learning from past test patterns and generating new cases automatically (e.g.,
+blank input, SQL injection). Manual testing is time-consuming and prone to human oversight. AI ensures
+broader coverage, faster execution, and better detection of hidden bugs.
