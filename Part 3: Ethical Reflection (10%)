@@ -1,0 +1,15 @@
+Deploying predictive models can introduce bias:
+
+If the dataset underrepresents certain demographics (e.g., younger patients or women), predictions may be less accurate for those groups.
+
+Teams/projects with fewer examples may receive incorrect priority predictions.
+
+Fairness tools like IBM AI Fairness 360 help by:
+
+Detecting bias metrics (e.g., disparate impact).
+
+Reweighting datasets to balance representation.
+
+Auditing predictions for fairness.
+
+This ensures models are inclusive, ethical, and trusted.
