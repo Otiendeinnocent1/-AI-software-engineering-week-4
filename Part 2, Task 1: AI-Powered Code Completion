@@ -1,0 +1,17 @@
+Manual Implementation
+def sort_dict_list(data, sort_key):
+    return sorted(data, key=lambda x: x[sort_key])
+
+Copilot Suggestion
+def sort_dicts_by_key(dicts, key):
+    try:
+        return sorted(dicts, key=lambda d: d.get(key, None))
+    except Exception as e:
+        print(f"Error: {e}")
+        return dicts
+
+Analysis (200 words)
+The manual implementation is simple, readable, and efficient for structured data, but it assumes the key
+exists in all dictionaries. Copilot’s code is more robust, as it uses .get() to avoid errors and includes try-
+except handling. However, it introduces slight overhead and is less clean. In practice, Copilot’s version is
+better for production, while manual code is better for controlled data.
