@@ -1,0 +1,5 @@
+Supervised Learning: Uses labeled bug datasets (e.g., “buggy” vs. “clean”). Works well when sufficient labeled data is available. Example: Classifying GitHub issues.
+
+Unsupervised Learning: Works on unlabeled data, clustering, or detecting anomalies in commit logs. Useful for zero-day bugs.
+
+Comparison: Supervised → high accuracy with labels. Unsupervised → effective in discovering unknown or rare bug patterns.
